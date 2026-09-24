@@ -1,0 +1,377 @@
+{
+  "generated_at_utc": "2026-09-24T15:35:35.259473+00:00",
+  "main_script_sha256": "8165a654c3b66884ccc115bd0653d0815fea8d76c34b9d445dd03d29c37f403d",
+  "dataset_sha256": "281d9f83261c3ab53816761a0a652c093a3f80a4ba74394b93cb1269a62a733b",
+  "run_config_sha256": "bb331f984a6d9bb3d4d27deb45588ea805e00010765d8d4f609b2aba4c2c1216",
+  "method": "Actual Chrome screenshots of local HTML containing exact executed source, console excerpts, and saved output artifacts.",
+  "pages": [
+    {
+      "number": 1,
+      "task": "Task 1",
+      "title": "Dataset loading and exploration: Python code",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/01.html",
+      "screenshot": "screenshots/01.png",
+      "css_height": 780.609375,
+      "screenshot_sha256": "6203fffe4dc687d209978ba9841b494d02f51d529ea43aa2d4972c01b5e2fecc",
+      "scroll_width": 1200
+    },
+    {
+      "number": 2,
+      "task": "Task 1",
+      "title": "First and last records: column band 1/3",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/02.html",
+      "screenshot": "screenshots/02.png",
+      "css_height": 1230.359375,
+      "screenshot_sha256": "da4246c37565502b4bc0fad4dac6436081d66ec4b7d48bd320832d507473c5e9",
+      "scroll_width": 1200
+    },
+    {
+      "number": 3,
+      "task": "Task 1",
+      "title": "First and last records: column band 2/3",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/03.html",
+      "screenshot": "screenshots/03.png",
+      "css_height": 1230.359375,
+      "screenshot_sha256": "a2d09bb6edf5692f460a70caec96edbfec5201ba5f6f7f9c3ba1c879b91395ed",
+      "scroll_width": 1200
+    },
+    {
+      "number": 4,
+      "task": "Task 1",
+      "title": "First and last records: column band 3/3",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/04.html",
+      "screenshot": "screenshots/04.png",
+      "css_height": 1230.359375,
+      "screenshot_sha256": "e97dcb4498f2ef892751ee7a948e766d27138a58e5e56d69a6a6c93e5dd2501e",
+      "scroll_width": 1200
+    },
+    {
+      "number": 5,
+      "task": "Task 1",
+      "title": "Dimensions, column names and data types",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/05.html",
+      "screenshot": "screenshots/05.png",
+      "css_height": 980.40625,
+      "screenshot_sha256": "64706a0b80a627471dcaf7ee5980cb4a89828aeb7cfe29b3f6b0a8b6c0705eef",
+      "scroll_width": 1200
+    },
+    {
+      "number": 6,
+      "task": "Task 1",
+      "title": "Numerical statistical summary (1)",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/06.html",
+      "screenshot": "screenshots/06.png",
+      "css_height": 660.859375,
+      "screenshot_sha256": "dd46ff26d92cd7f599a5dca9ea1641917ac12bd98b5469e5a589a7440895553e",
+      "scroll_width": 1200
+    },
+    {
+      "number": 7,
+      "task": "Task 1",
+      "title": "Numerical statistical summary (2)",
+      "sources": [
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/07.html",
+      "screenshot": "screenshots/07.png",
+      "css_height": 660.859375,
+      "screenshot_sha256": "44eb3d3b7fcabb19579e17a39e0f5d846951f19aca2ee55fa92d678e32d2a295",
+      "scroll_width": 1200
+    },
+    {
+      "number": 8,
+      "task": "Task 2",
+      "title": "Cleaning and data quality: Python code (1/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/08.html",
+      "screenshot": "screenshots/08.png",
+      "css_height": 1489.359375,
+      "screenshot_sha256": "8233e755e26ab64939138f9deed95969ba28cfb55acaf6ef329568eaa8ed9694",
+      "scroll_width": 1200
+    },
+    {
+      "number": 9,
+      "task": "Task 2",
+      "title": "Cleaning and data quality: Python code (2/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/09.html",
+      "screenshot": "screenshots/09.png",
+      "css_height": 1384.359375,
+      "screenshot_sha256": "5e8db4dcfc8c7680077cc8c3ae785ce64b6a2f7ce9ba67f93ae29b63c2ceae56",
+      "scroll_width": 1200
+    },
+    {
+      "number": 10,
+      "task": "Task 2",
+      "title": "Missing values and duplicates",
+      "sources": [
+        "outputs/missing_values.csv",
+        "toxic_comments_dataset.csv",
+        "outputs/run.log"
+      ],
+      "html": "pages/10.html",
+      "screenshot": "screenshots/10.png",
+      "css_height": 1214.171875,
+      "screenshot_sha256": "caa14a0034989f2f497f432b6ffd69bc64794a0fd173cbaf0454b1234616db6e",
+      "scroll_width": 1200
+    },
+    {
+      "number": 11,
+      "task": "Task 2",
+      "title": "Class distribution and dataset limitation",
+      "sources": [
+        "outputs/cleaned_dataset.csv",
+        "outputs/class_distribution.csv",
+        "toxic_comments_dataset.csv"
+      ],
+      "html": "pages/11.html",
+      "screenshot": "screenshots/11.png",
+      "css_height": 695.84375,
+      "screenshot_sha256": "75e4471d5ca750e5ee8c26910c6a27dc736d7820f6616a247f97baee6e82fa18",
+      "scroll_width": 1200
+    },
+    {
+      "number": 12,
+      "task": "Task 2",
+      "title": "Cleaning examples",
+      "sources": [
+        "outputs/cleaned_dataset.csv"
+      ],
+      "html": "pages/12.html",
+      "screenshot": "screenshots/12.png",
+      "css_height": 882.359375,
+      "screenshot_sha256": "dd38505d05f727c90d48d41c8c52f532d946d47e8b34b8ef8e7aa655c62460a8",
+      "scroll_width": 1200
+    },
+    {
+      "number": 13,
+      "task": "Task 3",
+      "title": "Splitting, tokenization and padding: Python code (1/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/13.html",
+      "screenshot": "screenshots/13.png",
+      "css_height": 1594.609375,
+      "screenshot_sha256": "c27a1276e0270f6dfd2ca810389dea34f237fa9d0c850bd2f3ecc569d9e2723f",
+      "scroll_width": 1200
+    },
+    {
+      "number": 14,
+      "task": "Task 3",
+      "title": "Splitting, tokenization and padding: Python code (2/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/14.html",
+      "screenshot": "screenshots/14.png",
+      "css_height": 833.109375,
+      "screenshot_sha256": "2738d04afeb71aa040c74e7618012c432b7ebb83dad5c3b791235af523f99874",
+      "scroll_width": 1200
+    },
+    {
+      "number": 15,
+      "task": "Task 3",
+      "title": "Tokenizer and padded sequence output",
+      "sources": [
+        "outputs/run.log",
+        "outputs/tokenizer.json"
+      ],
+      "html": "pages/15.html",
+      "screenshot": "screenshots/15.png",
+      "css_height": 937.546875,
+      "screenshot_sha256": "602d4f8f31c86a25bed1c625771d57d763eaf682d4edbd8a707803fadb461f36",
+      "scroll_width": 1200
+    },
+    {
+      "number": 16,
+      "task": "Task 4",
+      "title": "LSTM architecture and training: Python code (1/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/16.html",
+      "screenshot": "screenshots/16.png",
+      "css_height": 1463.109375,
+      "screenshot_sha256": "73cb51f6270df336bc464dbbe130983334f1de973fd080b8790dfaecc762e5c1",
+      "scroll_width": 1200
+    },
+    {
+      "number": 17,
+      "task": "Task 4",
+      "title": "LSTM architecture and training: Python code (2/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/17.html",
+      "screenshot": "screenshots/17.png",
+      "css_height": 649.359375,
+      "screenshot_sha256": "777a44db572b52719b46275ec5f3e57a140c83b94d2837e12ec0ba17ccff6930",
+      "scroll_width": 1200
+    },
+    {
+      "number": 18,
+      "task": "Task 4",
+      "title": "Model architecture and training configuration",
+      "sources": [
+        "outputs/run.log",
+        "outputs/run_config.json"
+      ],
+      "html": "pages/18.html",
+      "screenshot": "screenshots/18.png",
+      "css_height": 1066.015625,
+      "screenshot_sha256": "c71f515a82be4fc3b5270fb1c14e74035b4eb33dc930989624315739a8e6a489",
+      "scroll_width": 1200
+    },
+    {
+      "number": 19,
+      "task": "Task 4",
+      "title": "Training and validation results for every epoch",
+      "sources": [
+        "outputs/training_history.csv",
+        "outputs/metrics.json"
+      ],
+      "html": "pages/19.html",
+      "screenshot": "screenshots/19.png",
+      "css_height": 1041.59375,
+      "screenshot_sha256": "d6afe39e307593583a94fc264cb36953a8e4ea3fd5cbf9c22df83d3e4af469ff",
+      "scroll_width": 1200
+    },
+    {
+      "number": 20,
+      "task": "Task 5",
+      "title": "Held-out evaluation: Python code (1/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/20.html",
+      "screenshot": "screenshots/20.png",
+      "css_height": 1542.109375,
+      "screenshot_sha256": "24b470c44f4d0e265505b11f342eac4a00a9099c2ec87cfa18e7107d1e93b77d",
+      "scroll_width": 1200
+    },
+    {
+      "number": 21,
+      "task": "Task 5",
+      "title": "Held-out evaluation: Python code (2/2)",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/21.html",
+      "screenshot": "screenshots/21.png",
+      "css_height": 386.859375,
+      "screenshot_sha256": "ad64a7c20422c1cb393789930051b29ecf1735513e0093ee9f3509a75658e59c",
+      "scroll_width": 1200
+    },
+    {
+      "number": 22,
+      "task": "Task 5",
+      "title": "Test metrics and classification report",
+      "sources": [
+        "outputs/metrics.json",
+        "outputs/classification_report.txt"
+      ],
+      "html": "pages/22.html",
+      "screenshot": "screenshots/22.png",
+      "css_height": 989.34375,
+      "screenshot_sha256": "04f4ad526c4a1aea50600d92bd4471e38d5c9244de0b4049158014ff9eb71f93",
+      "scroll_width": 1200
+    },
+    {
+      "number": 23,
+      "task": "Task 5",
+      "title": "Confusion matrix on the test set",
+      "sources": [
+        "outputs/confusion_matrix.png"
+      ],
+      "html": "pages/23.html",
+      "screenshot": "screenshots/23.png",
+      "css_height": 1411.359375,
+      "screenshot_sha256": "879f69fb128e741e35705925274a6c2187ea793b578959c09566862188ab2609",
+      "scroll_width": 1200
+    },
+    {
+      "number": 24,
+      "task": "Task 5",
+      "title": "Training and validation accuracy/loss curves",
+      "sources": [
+        "outputs/training_curves.png"
+      ],
+      "html": "pages/24.html",
+      "screenshot": "screenshots/24.png",
+      "css_height": 687.203125,
+      "screenshot_sha256": "5cde85746ba9c1d4ad1cc3a49a8610f3b2a3636fc80b66de70738406d567480b",
+      "scroll_width": 1200
+    },
+    {
+      "number": 25,
+      "task": "Task 5",
+      "title": "Individual held-out predictions",
+      "sources": [
+        "outputs/test_predictions.csv",
+        "outputs/test_rows.csv"
+      ],
+      "html": "pages/25.html",
+      "screenshot": "screenshots/25.png",
+      "css_height": 565.640625,
+      "screenshot_sha256": "0bff53f96cfca83fd46f35452b2b7613b931ca32c7e5e57106ceaef2a35309bd",
+      "scroll_width": 1200
+    },
+    {
+      "number": 26,
+      "task": "Task 5",
+      "title": "Predictions for new comments: Python code",
+      "sources": [
+        "main.py"
+      ],
+      "html": "pages/26.html",
+      "screenshot": "screenshots/26.png",
+      "css_height": 1279.359375,
+      "screenshot_sha256": "a07b57f8c8461ecc413a8de43208275d83554f8fa775e7aefa15ba70a5817ddd",
+      "scroll_width": 1200
+    },
+    {
+      "number": 27,
+      "task": "Task 5",
+      "title": "New-comment prediction output",
+      "sources": [
+        "outputs/new_comment_predictions.csv"
+      ],
+      "html": "pages/27.html",
+      "screenshot": "screenshots/27.png",
+      "css_height": 601.640625,
+      "screenshot_sha256": "bafcbcce0a59af43b90b6918ddff0041a9f38a841ed6e297c9d860ce38ac7834",
+      "scroll_width": 1200
+    }
+  ],
+  "document": "Toxic_Comment_Classification_Assignment.docx",
+  "document_sha256": "f51f73bcdadc4b82225400866d7e4c9614803e2cea2551ac6d5c9aa0f0019221"
+}

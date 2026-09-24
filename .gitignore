@@ -1,0 +1,7 @@
+.venv/
+.cache/
+outputs/
+.validation/
+__pycache__/
+*.pyc
+toxic_comments_dataset.csv
